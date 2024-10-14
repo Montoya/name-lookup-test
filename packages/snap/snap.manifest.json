@@ -1,26 +1,33 @@
 {
   "version": "0.1.0",
-  "description": "An example Snap written in TypeScript.",
-  "proposedName": "TypeScript Example",
+  "description": "A Name Lookup Test written in TypeScript.",
+  "proposedName": "Name Lookup Test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/Montoya/name-lookup-test.git"
   },
   "source": {
     "shasum": "ufQns74hTklAsDcCm5Yd3qVw4iMs82eARCnn6IARlYE=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
+        "iconPath": "img/icon.svg",
         "packageName": "snap",
         "registry": "https://registry.npmjs.org/"
       }
     }
   },
   "initialPermissions": {
-    "snap_dialog": {},
-    "endowment:rpc": {
-      "dapps": true,
-      "snaps": false
+    "endowment:name-lookup": {
+      "matchers": {
+        "tlds": [
+          "tld"
+        ],
+        "schemes": [
+          "scheme",
+          "schm"
+        ]
+      }
     }
   },
   "manifestVersion": "0.1"
