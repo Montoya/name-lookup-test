@@ -7,12 +7,12 @@
     "url": "https://github.com/Montoya/name-lookup-test.git"
   },
   "source": {
-    "shasum": "ufQns74hTklAsDcCm5Yd3qVw4iMs82eARCnn6IARlYE=",
+    "shasum": "jWYGNdAElDkSSBWp/kJR0ZJ5T4f/za2NNwZHXofBrUI=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "img/icon.svg",
-        "packageName": "snap",
+        "packageName": "name-lookup-test",
         "registry": "https://registry.npmjs.org/"
       }
     }
